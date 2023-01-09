@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试</title>
+</head>
+<!-- 标题 -->
+
+    <h1>整点活</h1>
+<body>
+   <h2>我嫩叠</h2>
+         <p><b>我家的后面有一个很大的园，<br/>
+        <!-- p段落符号  br强制分段 b加粗-->
+
+               相传叫作百草圆</b></p>
+               不必说碧绿的菜畦，光滑的石井栏，高大的
+            <a href="tree">皂荚树</a>
+            <!-- 锚点链接跳转至页面某处 与id搭配使用-->
+
+        <div>介是嘛</div>
+        <span>我徒弟呢</span> <span>我不到啊</span>
+        <!-- div 独占一行的容器  span 普通容器 -->
+
+            <h4>上海博物馆</h4>
+            <p><img src="123.jpeg" alt="照片" title="这是张照片"/></p>
+            <!-- img src 显示照片    alt 照片损坏显示字符      title 鼠标悬浮显示文字 -->
+
+            <img src="image/123.jpeg"/><br/>
+             <!--不同级照片  文件夹位置/图片名 -->
+
+              <a href="http://www.baidu.com" target="_blank ">baidu  </a>
+              <!-- 外网链接 -->
+
+              <a href="haodongxi.html" target="_self">好东西</a>
+              <!-- 网页文件内部链接 -->
+
+              <a href="#">空链接</a>
+              <!-- 空连接 -->
+
+              <a href="img.zip">下载文件</a>
+              <!-- 文件链接 -->
+
+              <a href="http://www.baidu.com"><img src="img.jpg"></a>
+              <!-- 图片链接 -->
+
+              <id="tree">皂荚树</id>
+              <!-- 锚点 快速跳转  与a herf 锚点链接同时使用-->
+              你&nbsp;说&nbsp;啥&nbsp;  
+              <table align="center" border="1" cellpadding="20" cellspacing="0">
+                <!-- align 排列方式 border 边框 cellpadding 内容与边框的距离 cellspacing 边框宽度 -->
+
+                <tr><th>型号</th> <th>价格</th></tr>
+                <!-- th 带着重符号 td 正常内容 tr表格行 -->
+
+                <tr><td>123</td> <td>120</td></tr>
+                <tr><td>456</td> <td>123</td></tr>
+              </table>
+              <br/>
+              <br/>
+
+ <!-- 表格   <table>开始行     align表格位置     cellpadding内容到表格距离      cellspacing表格宽度 -->
+<table align="center" border="1" cellpadding="20 " cellspacing="5">
+    <thead><tr><th>排名</th> <th>关键词</th> <th>趋势</th> <th>今日搜索</th> <th>最近七日</th> <th>相关链接</th></tr></thead>
+    <tbody>
+     <tr><td>1</td> <td><img src="?.img" alt="图片" title="这是个图片"></td> <td>12345</td> <td>12345</td> <td>12345</td> <td><a href="#">图片</a></td></tr>
+     <tr><td>1</td> <td><img src="?.img" alt="图片" title="这是个图片"></td> <td>12345</td> <td>12345</td> <td>12345</td> <td><a href="#"></td></tr>
+     <tr><td>1</td> <td><img src="?.img" alt="图片" title="这是个图片"></td> <td>12345</td> <td>12345</td> <td>12345</td> <td><a href="#"></td></tr>
+    </tbody>
+
+        <dd>给我一块</dd>
+<!-- 合并表格 <colspan=""> 横向扩展    <rowspan="">纵向扩展  -->
+</table>
+<table align="center"  border="1" cellpadding="10" cellspacing="3">
+    <tbody>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td rowspan="3">嗨嗨嗨  </td><td colspan="3">嚯崋</td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+
+    </tbody>
+</table>
+&nbsp;&nbsp;&nbsp;老八秘制小憨包
+
+
+<!--无序列表 <ul>  <li>-->
+<ul>
+    <li><a href="#">臭豆腐</a></li>
+    <li>腐乳</li>
+    <li>柠檬</li>
+</ul>
+
+
+<!-- 有序列表 <ol> -->
+<ol>
+    老八
+    <li>我 2</li>
+    <li>你 1</li>
+    <li>爹 3</li>
+</ol>
+
+
+<!-- 自定义列表<dl>开始 <dt>title  <dd>普通行 -->
+    <dl>
+        <dt>给我钱</dt>
+        <dd>给我一块</dd>
+        <dd>给我两块</dd>
+    </dl>
+
+
+<!--表单<form action="url地址" method 提交方式 post/get  name="表单名称"-->
+<form action="xxx.php" method="post" name="名字">
+
+<!-- 表单元素 input type="" 内容:text文本框  password密码框 radio单选按钮  checkbox复选框     后端用：name规定input名称并分辨不同元素 value在输入框显示文字以及用来给服务器反馈 -->
+   <label for="name">用户名:</label><input type="text" name="name" value="请输入用户名"><br> 
+   <!-- label 允许用户点击字符 图片等进行选择   label需要与name搭配使用-->
+   
+    密码: &nbsp;&nbsp;<input type="password"  maxlength="15"><br>
+    吃了吗: 吃了<input type="radio" name="done" name="1"> 没吃<input type="radio" name="1" checked="checked"> <br>
+    测试复选框：<input type="checkbox" value="check">
+<!-- check 默认勾选框   maxlength最大值 checked="checked" 默认勾选-->
+
+    <input type="submit" value="登录"><br>
+    <input type="reset" value="重写">
+    <input type="bottom" value="微信转账100块">
+    <input type="file">
+    <!-- 上传文件 -->
+</form>
+
+<!-- select 表单表格 点击下拉表单  option 选项  selected="selected 默认勾选"-->
+<form>
+地区：<select>
+            <option>上海</option>
+            <option selected="selected">北京</option>
+    </select>
+</form>
+
+<!-- textarea 文本域 输入大段文字  cols行字数限制 rows行数限制-->
+整活的想法
+<textarea cols="20" rows="3">
+整点活
+</textarea>
+</body>
+</html>
